@@ -6,6 +6,8 @@ class OrganisationsController < ApplicationController
   # GET /organisations.json
   def index
     @organisations = Organisation.all
+
+    @organisation = Organisation.new
   end
 
   # GET /organisations/1
